@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Sour Gummy', sans-serif; /* Default font */
+}
+
+body {
+  min-height: 100vh;
+  background-image: url('punk.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+/* Navbar Styles */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  color: #FFD300;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 4em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  font-family: 'Sour Gummy', sans-serif; /* Apply Poppins to navbar brand */
+}
+
+.navbar-brand:hover {
+  color: #FFD300;
+}
+
+.nav-link-hover {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #FFD300;
+  border-radius: 50px;
+  background-color: transparent; /* Keep background color static */
+  font-family: "Sour Gummy", sans-serif; /* Apply Roboto to nav links */
+}
+
+.nav-link-hover:hover {
+  background-color: #300054;
+}
+
+/* Content Section */
+.content {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.content p {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
+footer {
+  font-family: "Sour Gummy", serif;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  background-color: transparent; /* Set background to transparent */
+}

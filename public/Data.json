@@ -1,0 +1,22 @@
+{
+    "home": {
+      "title": "Welcome to My Profile",
+      "description": "Unleash your imagination and turn ordinary moments into extraordinary creations."
+    },
+    "about": {
+      "title": "About Me",
+      "description": "I am Joshua Bondalo, a hardworking student who loves computer games. At first, I didn't like computer coding, but thanks to Sir Fritz, I'm starting to appreciate it now! Always eager to gain knowledge, I work hard to improve myself every day." 
+    },
+    "education": {
+      "title": "Education",
+      "description":"I graduated Grade 12 from Camarines Sur National High School and earned an honor in the GAS strand through hard work and dedication."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "You can reach me via email at bondalojoshua5@gmail.com."
+    },
+    "hobbies": {
+      "title": "My Hobbies",
+      "description": "My hobby is playing Roblox and creating stylish outfits for my avatar."
+    }
+  }
